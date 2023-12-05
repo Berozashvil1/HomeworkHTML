@@ -1,9 +1,14 @@
-
+main{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
 .OuterDiv {
   width: 600px;
   height: 400px;
   box-shadow: 10px 10px 10px gainsboro;
   border-radius: 20px;
+  display: flex;
 }
 .InnerDiv {
   width: 300px;
@@ -11,16 +16,20 @@
   border-radius: 20px;
   background-color: rgb(69, 52, 242);
 }
+.Sum{
+  width: 300px;
+  height: 400px;
+}
 .Result {
   color: darkgray;
   position: relative;
   left: 110px;
-  top: 35px;
+  top: 20px;
 }
 .RoundDiv {
   position: relative;
   left: 75px;
-  top: 50px;
+  top: 30px;
   width: 150px;
   height: 150px;
   background-color: rgb(50, 42, 222);
@@ -42,24 +51,24 @@
 h2 {
   position: relative;
   left: 120px;
-  top: 55px;
+  top: 30px;
   color: white;
 }
 .ScorePercent {
   position: relative;
   left: 50px;
-  top: 50px;
+  top: 30px;
   color: darkgrey;
 }
 .Summary {
-  position: absolute;
-  left: 350px;
-  bottom: 750px;
+  position: relative;
+  left: 35px;
+  top: 20px;
 }
 .Reaction {
-  position: absolute;
-  left: 350px;
-  bottom: 700px;
+  position: relative;
+  left: 40px;
+  top: 40px;
   width: 200px;
   height: 40px;
   background-color: rgb(228, 182, 167, 0.2);
@@ -122,9 +131,9 @@ h2 {
   color: darkgrey;
 }
 .Memory {
-  position: absolute;
-  left: 350px;
-  bottom: 645px;
+  position: relative;
+  left: 40px;
+  top: 55px;
   width: 200px;
   height: 40px;
   background-color: rgba(180, 204, 43, 0.1);
@@ -134,14 +143,18 @@ h2 {
   background-color: rgba(18, 185, 149, 0.1);
   border-radius: 10px;
   position: relative;
-  top: 35px;
+  width: 200px;
   height: 40px;
+  top:70px;
+  left: 42px;
 }
 .Visual {
   background-color:rgb(122, 77, 163, 0.2) ;
   border-radius: 10px;
   position: relative;
-  top: 55px;
+  top: 85px;
+  left: 42px;
+  width: 200px;
   height: 40px;
 }
 input{
@@ -149,7 +162,8 @@ input{
     width: 200px;
     height: 40px;
     position: relative;
-    top: 50px;
+    left:42px;
+    top: 80px;
     background-color:midnightblue;
     color: aliceblue;
 }
