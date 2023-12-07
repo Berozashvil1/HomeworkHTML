@@ -1,0 +1,87 @@
+main {
+  max-width: 300px;
+  height: 1000px;
+}
+.header {
+  height: 180px;
+  width: 300px;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.upperleft {
+  background-color: black;
+}
+.upperright {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.middleleft {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.middleright {
+  background-color: black;
+}
+.lowerleft {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.lowerright {
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.uppermiddle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.uppermiddle > div {
+  width: 50%;
+  height: 150px;
+}
+.whitemiddle {
+  width: 100%;
+  height: 170px;
+  background-color: black;
+}
+.bottomfirst {
+  width: 25%;
+  height: 100px;
+  background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottomsecond {
+  width: 25%;
+  height: 100px;
+  background-image: url(./images/desktop/image-gallery-orange.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottomthird {
+  width: 25%;
+  height: 100px;
+  background-image: url(./images/desktop/image-gallery-cone.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottomfourth {
+  width: 25%;
+  height: 100px;
+  background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottommiddle {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+}
