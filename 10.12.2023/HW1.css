@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 1000px;
+}
+.header {
+  height: 550px;
+  width: 1000px;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header > h2 {
+  color: white;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.righthead {
+  position: absolute;
+  left: 620px;
+  top: 35px;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.righthead > h4 {
+  color: white;
+}
+.righthead>h4:hover{
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+h5 {
+  text-align: center;
+  padding: 6px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  bottom: 5px;
+  border-radius: 25px;
+}
+h5:hover{
+  background-color: rgb(255, 255, 255, 0.5);
+  transform: scale(1.4);
+  transition: 1.5s;
+}
+h6{
+  text-decoration: underline red;
+}
+h1 {
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: 140px;
+}
+.header > img {
+  position: absolute;
+  width: 30px;
+  left: 490px;
+  top: 230px;
+}
+.upperleft,
+.middleright,
+.whitemiddle {
+  background-color: white;
+}
+.upperleft {
+  position: relative;
+}
+.transform {
+  width: 55%;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50% -50%);
+}
+.upperright {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.middleleft {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.middleright {
+  position: relative;
+}
+.standout {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50% -50%);
+}
+.lowerleft {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.graphicdesign {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+  text-align: center;
+  transform: translate(-50% -50%);
+}
+.lowerright {
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.photography {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+  text-align: center;
+  transform: translate(-50% -50%);
+}
+.uppermiddle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.uppermiddle > div {
+  width: 50%;
+  height: 500px;
+}
+.whitemiddle {
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+.whitemiddle > h3 {
+  position: relative;
+  left: 390px;
+  top: 100px;
+  color: darkgray;
+}
+.bottomfirst {
+  background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+}
+.bottomsecond {
+  background-image: url(./images/desktop/image-gallery-orange.jpg);
+}
+.bottomthird {
+  background-image: url(./images/desktop/image-gallery-cone.jpg);
+}
+.bottomfourth {
+  background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+}
+.bottommiddle {
+  display: flex;
+  flex-direction: row;
+}
+.bottommiddle > div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bottommiddle > div {
+  width: 25%;
+  height: 300px;
+}
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: aquamarine;
+  position: relative;
+}
+.Emily>img,.Thomas>img, .Jennie>img {
+  border-radius: 50%;
+  width: 35px;
+}
+.Emily,
+.Thomas,
+.Jennie {
+  width: 25%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+.Emily:hover, .Thomas:hover, .Jennie:hover{
+  border: 2px solid;
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+.persons {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+.footer > h2 {
+  position: absolute;
+  left: 450px;
+  top: 50px;
+  color:darkcyan;
+}
+.footermiddle{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 355px;
+  top: 110px;
+  color: darkcyan;
+}
+.footermiddle>h4:hover{
+  color: black;
+  transform: scale(2);
+  transition: 2s;
+}
+.icons>img{
+  width: 15px;
+}
+.icons>img:hover{
+  transform: scale(2.5);
+  transition: 1.5s ease;
+}
+.icons{
+  width: 16%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 420px;
+  top: 200px;
+}
